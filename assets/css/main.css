@@ -1,0 +1,405 @@
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+  }
+  @font-face {
+    font-family: robotSlab;
+    src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+  }
+  body {
+    font-family: roboto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #header {
+    padding-top: 20px;
+  }
+  #header .all-header img {
+    width: 112px;
+    height: 66px;
+  }
+  
+  #nav {
+    padding-top: 100px;
+  }
+  #nav .all-nav ul li {
+    margin: 0%;
+    margin-right: 32px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  #nav .all-nav ul li img {
+    width: 22px;
+    height: 21px;
+    margin-right: 8px;
+  }
+  
+  #watch .all-watch .left-watch h1 {
+    font-weight: 700;
+    font-size: 80px;
+    font-family: robotSlab;
+  }
+  #watch .all-watch .left-watch p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  #watch .all-watch .right-watch {
+    width: 304px;
+    height: 356px;
+  }
+  #watch .all-watch .right-watch img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  #box-place {
+    padding-top: 87px;
+  }
+  #box-place .all-box-place {
+    background: #1E4681;
+    width: 460.63px;
+    height: 180px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  #box-place .all-box-place h6 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    font-family: robotSlab;
+  }
+  #box-place .all-box-place span {
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #course {
+    padding-top: 173.38px;
+  }
+  #course .all-course .course-head h2 {
+    font-size: 55px;
+    font-family: robotSlab;
+    font-weight: 700;
+  }
+  #course .all-course .course-main {
+    margin-top: 40px;
+  }
+  #course .all-course .course-main .course-content p {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  #course .all-course .course-main .course-content p:first-child {
+    margin-bottom: 50px;
+  }
+  #course .all-course .course-main .course-img {
+    width: 314px;
+    height: 315px;
+  }
+  #course .all-course .course-main .course-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  #time {
+    padding-top: 95px;
+  }
+  #time .all-time .time-box h6 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  #time .all-time .time-box p {
+    font-size: 18px;
+    width: 150px;
+  }
+  #time .all-time .time-box img {
+    width: 232px;
+    height: 203px;
+  }
+  
+  #format {
+    padding-top: 160px;
+  }
+  #format .all-format .format-head h2 {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: robotSlab;
+  }
+  #format .all-format .format-main {
+    margin-top: 100px;
+  }
+  #format .all-format .format-main .format-box h6 {
+    color: #1E4681;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  #format .all-format .format-main .format-box p {
+    width: 55%;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  #know {
+    padding-top: 180px;
+  }
+  #know .all-know .know-head h2 {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: robotSlab;
+  }
+  #know .all-know .know-main {
+    margin-top: 35px;
+  }
+  #know .all-know .know-main ul li {
+    margin-top: 10px;
+    width: 50%;
+  }
+  
+  #programme {
+    padding-top: 240px;
+    padding-bottom: 120px;
+  }
+  #programme .all-programme .programme-head h2 {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: robotSlab;
+  }
+  #programme .all-programme .programme-main {
+    margin-top: 95px;
+  }
+  #programme .all-programme .programme-main .programme-box {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 2em;
+    position: relative;
+    height: 328px;
+    width: 96%;
+    margin: auto;
+    margin-top: 41px;
+  }
+  #programme .all-programme .programme-main .programme-box .box-img {
+    width: 100%;
+    height: 160px;
+  }
+  #programme .all-programme .programme-main .programme-box .box-img img {
+    height: 100%;
+    width: 100%;
+  }
+  #programme .all-programme .programme-main .programme-box .box-text {
+    width: 94%;
+    margin: auto;
+  }
+  #programme .all-programme .programme-main .programme-box .box-text h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 11px;
+  }
+  #programme .all-programme .programme-main .programme-box .box-text p {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 32px;
+    width: 70%;
+  }
+  
+  #statistics {
+    padding-bottom: 110px;
+    background-color: #EFEFEF;
+  }
+  #statistics .all-statistics {
+    padding-top: 90px;
+  }
+  #statistics .all-statistics .statistics-head h2 {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: robotSlab;
+  }
+  #statistics .all-statistics .statistics-box {
+    width: 790px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 3em;
+    padding: 15px 0px;
+    margin-top: 45px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  #statistics .all-statistics .statistics-box .box-text {
+    width: 90%;
+    margin: auto;
+  }
+  #statistics .all-statistics .statistics-box .box-text p {
+    font-size: 20px;
+  }
+  #statistics .all-statistics .statistics-box .box-acc {
+    width: 90%;
+    margin: auto;
+  }
+  #statistics .all-statistics .statistics-box .box-acc .box-img {
+    width: 190px;
+    height: 169px;
+  }
+  #statistics .all-statistics .statistics-box .box-acc .box-person h4 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: robotSlab;
+  }
+  #statistics .all-statistics .statistics-box .box-acc .box-person img {
+    width: 32px;
+    height: 31px;
+    margin-top: 15px;
+  }
+  
+  #start {
+    background-color: #9DC9C8;
+    padding-bottom: 100px;
+  }
+  #start .all-start {
+    padding-top: 120px;
+  }
+  #start .all-start .start-head h2 {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: robotSlab;
+  }
+  #start .all-start .start-main {
+    margin-top: 55px;
+  }
+  #start .all-start .start-main .price-start span {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  #start .all-start .start-main .price-start p {
+    font-size: 80px;
+    font-weight: 400;
+  }
+  #start .all-start .start-main .start-bottom {
+    margin-top: 100px;
+  }
+  #start .all-start .start-main .start-bottom .start-box h4 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  #start .all-start .start-main .start-bottom .start-box p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  #footer {
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  #footer .up-footer .left-footer .footer-img {
+    width: 115px;
+    height: 68px;
+  }
+  #footer .up-footer .left-footer .footer-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #footer .up-footer .left-footer .footer-social {
+    margin-top: 30px;
+  }
+  #footer .up-footer .left-footer .footer-social img {
+    width: 33px;
+    height: 33px;
+    margin-right: 18px;
+  }
+  #footer .up-footer .right-footer a {
+    display: flex;
+    margin-top: 5px;
+    color: #fff;
+  }
+  #footer .up-footer .right-footer a img {
+    width: 27px;
+    height: 27px;
+    margin-right: 25px;
+  }
+  #footer .up-footer .right-footer a .mail {
+    height: 18px;
+  }
+  #footer .down-footer {
+    margin-top: 120px;
+  }
+  #footer .down-footer p {
+    margin: 0%;
+    padding: 0%;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  @media (min-width: 270px) and (max-width: 576px) {
+    #header .all-header img {
+      width: 52.19px;
+      height: 30.75px;
+    }
+    #nav {
+      padding-top: 45px;
+    }
+    #nav .all-nav ul li {
+      font-size: 10px;
+    }
+    #nav .all-nav ul li img {
+      width: 10.25px;
+      height: 9.79px;
+    }
+    #watch .all-watch .left-watch h1 {
+      font-size: 37px;
+    }
+    #watch .all-watch .left-watch p {
+      font-size: 10px;
+      width: 60%;
+    }
+    #watch .all-watch .right-watch {
+      width: 141.66px;
+      height: 165.89px;
+      margin-left: 50%;
+    }
+    #box-place {
+      padding-top: 45px;
+    }
+    #box-place .all-box-place {
+      width: 225.36px;
+      height: 95px;
+    }
+    #box-place .all-box-place h6 {
+      font-size: 11px;
+    }
+    #box-place .all-box-place span {
+      font-size: 10px;
+    }
+    #course {
+      padding-top: 75px;
+    }
+    #course .all-course .course-head h2 {
+      font-size: 26px;
+    }
+    #course .all-course .course-main .course-content p {
+      font-size: 12px;
+    }
+    #course .all-course .course-main .course-content p:first-child {
+      margin-bottom: 15px;
+    }
+    #course .all-course .course-main .course-img {
+      width: 146.32px;
+      height: 146.78px;
+      margin: auto;
+    }
+    #time .all-time .time-box h6 {
+      font-size: 12px;
+    }
+    #time .all-time .time-box p {
+      font-size: 10px;
+    }
+    #time .all-time .time-box img {
+      display: none;
+    }
+  }/*# sourceMappingURL=main.css.map */
