@@ -1,405 +1,716 @@
 @font-face {
-    font-family: roboto;
-    src: url(../fonts/Roboto-Regular.ttf);
+  font-family: roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: robotSlab;
+  src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+body {
+  font-family: roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-head h2 {
+  font-size: 55px;
+  font-family: robotSlab;
+  font-weight: 700;
+}
+@media (min-width: 270px) and (max-width: 576px) {
+  .section-head h2 {
+    font-size: 26px;
   }
-  @font-face {
-    font-family: robotSlab;
-    src: url(../fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .section-head h2 {
+    font-size: 32px;
   }
-  body {
-    font-family: roboto;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  #header {
-    padding-top: 20px;
-  }
+}
+
+#header {
+  padding-top: 20px;
+}
+#header .all-header img {
+  width: 112px;
+  height: 66px;
+}
+
+#nav {
+  padding-top: 100px;
+}
+#nav .all-nav ul li {
+  margin: 0%;
+  margin-right: 32px;
+  font-size: 20px;
+  font-weight: 400;
+}
+#nav .all-nav ul li img {
+  width: 22px;
+  height: 21px;
+  margin-right: 8px;
+}
+
+#watch .all-watch .left-watch h1 {
+  font-weight: 700;
+  font-size: 80px;
+  font-family: robotSlab;
+}
+#watch .all-watch .left-watch p {
+  font-size: 20px;
+  font-weight: 400;
+}
+#watch .all-watch .right-watch {
+  width: 304px;
+  height: 356px;
+}
+#watch .all-watch .right-watch img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#box-place {
+  padding-top: 87px;
+}
+#box-place .all-box-place {
+  background: #1E4681;
+  width: 460.63px;
+  height: 190px;
+  padding: 20px;
+  margin: 0 auto;
+}
+#box-place .all-box-place h6 {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 400;
+  font-family: robotSlab;
+}
+#box-place .all-box-place span {
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#course {
+  padding-top: 173.38px;
+}
+#course .all-course .course-main {
+  margin-top: 40px;
+}
+#course .all-course .course-main .course-content p {
+  font-size: 24px;
+  font-weight: 400;
+}
+#course .all-course .course-main .course-content p:first-child {
+  margin-bottom: 50px;
+}
+#course .all-course .course-main .course-img {
+  width: 314px;
+  height: 315px;
+}
+#course .all-course .course-main .course-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#time {
+  padding-top: 95px;
+}
+#time .all-time .time-box h6 {
+  font-size: 25px;
+  font-weight: 700;
+}
+#time .all-time .time-box p {
+  font-size: 18px;
+  width: 150px;
+}
+#time .all-time .time-box img {
+  width: 232px;
+  height: 203px;
+}
+
+#format {
+  padding-top: 160px;
+}
+#format .all-format .format-main {
+  margin-top: 100px;
+}
+#format .all-format .format-main .format-box h6 {
+  color: #1E4681;
+  font-size: 25px;
+  font-weight: 700;
+}
+#format .all-format .format-main .format-box p {
+  width: 55%;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#know {
+  padding-top: 180px;
+}
+#know .all-know .know-main {
+  margin-top: 35px;
+}
+#know .all-know .know-main ul li {
+  margin-top: 10px;
+  width: 50%;
+}
+
+#programme {
+  padding-top: 240px;
+  padding-bottom: 120px;
+}
+#programme .all-programme .programme-main {
+  margin-top: 95px;
+}
+#programme .all-programme .programme-main .programme-box {
+  border-radius: 2em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: transparent;
+  position: relative;
+  height: 328px;
+  width: 96%;
+  margin: auto;
+  margin-top: 41px;
+}
+#programme .all-programme .programme-main .programme-box .box-img {
+  width: 100%;
+  height: 160px;
+}
+#programme .all-programme .programme-main .programme-box .box-img img {
+  height: 100%;
+  width: 100%;
+}
+#programme .all-programme .programme-main .programme-box .box-text {
+  width: 90%;
+  margin: auto;
+}
+#programme .all-programme .programme-main .programme-box .box-text h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 11px;
+}
+#programme .all-programme .programme-main .programme-box .box-text p {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 32px;
+  width: 70%;
+}
+
+#statistics {
+  padding-bottom: 110px;
+  background-color: #EFEFEF;
+}
+#statistics .all-statistics {
+  padding-top: 90px;
+}
+#statistics .all-statistics .statistics-box {
+  width: 790px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 3em;
+  padding: 15px 0px;
+  margin-top: 45px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#statistics .all-statistics .statistics-box .box-text {
+  width: 90%;
+  margin: auto;
+}
+#statistics .all-statistics .statistics-box .box-text p {
+  font-size: 20px;
+}
+#statistics .all-statistics .statistics-box .box-acc {
+  width: 90%;
+  margin: auto;
+}
+#statistics .all-statistics .statistics-box .box-acc .box-img {
+  width: 190px;
+  height: 169px;
+}
+#statistics .all-statistics .statistics-box .box-acc .box-img img {
+  width: 100%;
+  height: 100%;
+}
+#statistics .all-statistics .statistics-box .box-acc .box-person h4 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: robotSlab;
+}
+#statistics .all-statistics .statistics-box .box-acc .box-person img {
+  width: 32px;
+  height: 31px;
+  margin-top: 15px;
+}
+
+#start {
+  background-color: #9DC9C8;
+  padding-bottom: 100px;
+}
+#start .all-start {
+  padding-top: 120px;
+}
+#start .all-start .start-main {
+  margin-top: 55px;
+}
+#start .all-start .start-main .price-start span {
+  font-size: 25px;
+  font-weight: 400;
+}
+#start .all-start .start-main .price-start p {
+  font-size: 80px;
+  font-weight: 400;
+}
+#start .all-start .start-main .start-bottom {
+  margin-top: 100px;
+}
+#start .all-start .start-main .start-bottom .start-box h4 {
+  font-size: 25px;
+  font-weight: 400;
+}
+#start .all-start .start-main .start-bottom .start-box p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#footer {
+  background-color: #000;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+#footer .up-footer .left-footer .footer-img {
+  width: 115px;
+  height: 68px;
+}
+#footer .up-footer .left-footer .footer-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#footer .up-footer .left-footer .footer-social {
+  margin-top: 30px;
+}
+#footer .up-footer .left-footer .footer-social img {
+  width: 33px;
+  height: 33px;
+  margin-right: 18px;
+}
+#footer .up-footer .right-footer a {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  color: #fff;
+}
+#footer .up-footer .right-footer a img {
+  width: 27px;
+  height: 27px;
+  margin-right: 25px;
+}
+#footer .up-footer .right-footer a .mail {
+  height: 18px;
+}
+#footer .up-footer .right-footer a p {
+  font-size: 25px;
+  margin: 0%;
+  padding: 0%;
+}
+#footer .down-footer {
+  margin-top: 120px;
+}
+#footer .down-footer p {
+  margin: 0%;
+  padding: 0%;
+  color: #fff;
+  font-size: 18px;
+}
+
+@media (min-width: 270px) and (max-width: 576px) {
   #header .all-header img {
-    width: 112px;
-    height: 66px;
+    width: 52.19px;
+    height: 30.75px;
   }
-  
   #nav {
-    padding-top: 100px;
+    padding-top: 45px;
   }
   #nav .all-nav ul li {
-    margin: 0%;
-    margin-right: 32px;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 10px;
   }
   #nav .all-nav ul li img {
-    width: 22px;
-    height: 21px;
-    margin-right: 8px;
+    width: 10.25px;
+    height: 9.79px;
   }
-  
   #watch .all-watch .left-watch h1 {
-    font-weight: 700;
-    font-size: 80px;
-    font-family: robotSlab;
+    font-size: 37px;
   }
   #watch .all-watch .left-watch p {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 10px;
+    width: 60%;
   }
   #watch .all-watch .right-watch {
-    width: 304px;
-    height: 356px;
+    width: 141.66px;
+    height: 165.89px;
+    margin-left: 50%;
   }
-  #watch .all-watch .right-watch img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  
   #box-place {
-    padding-top: 87px;
+    padding-top: 45px;
   }
   #box-place .all-box-place {
-    background: #1E4681;
-    width: 460.63px;
-    height: 180px;
-    padding: 20px;
-    margin: 0 auto;
+    width: 225.36px;
+    height: 110px;
   }
   #box-place .all-box-place h6 {
-    font-size: 25px;
-    color: #fff;
-    font-weight: 400;
-    font-family: robotSlab;
+    font-size: 11px;
   }
   #box-place .all-box-place span {
-    font-size: 20px;
-    color: #fff;
-    display: flex;
-    justify-content: flex-end;
+    font-size: 10px;
   }
-  
   #course {
-    padding-top: 173.38px;
-  }
-  #course .all-course .course-head h2 {
-    font-size: 55px;
-    font-family: robotSlab;
-    font-weight: 700;
-  }
-  #course .all-course .course-main {
-    margin-top: 40px;
+    padding-top: 75px;
   }
   #course .all-course .course-main .course-content p {
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 12px;
   }
   #course .all-course .course-main .course-content p:first-child {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
   }
   #course .all-course .course-main .course-img {
-    width: 314px;
-    height: 315px;
-  }
-  #course .all-course .course-main .course-img img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  
-  #time {
-    padding-top: 95px;
+    width: 146.32px;
+    height: 146.78px;
+    margin: auto;
   }
   #time .all-time .time-box h6 {
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 12px;
   }
   #time .all-time .time-box p {
-    font-size: 18px;
-    width: 150px;
+    font-size: 10px;
   }
   #time .all-time .time-box img {
-    width: 232px;
-    height: 203px;
+    display: none;
   }
-  
   #format {
-    padding-top: 160px;
-  }
-  #format .all-format .format-head h2 {
-    font-size: 55px;
-    font-weight: 700;
-    font-family: robotSlab;
+    padding-top: 75px;
   }
   #format .all-format .format-main {
-    margin-top: 100px;
+    margin-top: 20px;
   }
   #format .all-format .format-main .format-box h6 {
-    color: #1E4681;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 12px;
   }
   #format .all-format .format-main .format-box p {
-    width: 55%;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 12px;
   }
-  
   #know {
-    padding-top: 180px;
-  }
-  #know .all-know .know-head h2 {
-    font-size: 55px;
-    font-weight: 700;
-    font-family: robotSlab;
-  }
-  #know .all-know .know-main {
-    margin-top: 35px;
+    padding-top: 75px;
   }
   #know .all-know .know-main ul li {
-    margin-top: 10px;
-    width: 50%;
+    width: 100%;
+    font-size: 12px;
   }
-  
   #programme {
-    padding-top: 240px;
-    padding-bottom: 120px;
-  }
-  #programme .all-programme .programme-head h2 {
-    font-size: 55px;
-    font-weight: 700;
-    font-family: robotSlab;
+    padding-top: 85px;
   }
   #programme .all-programme .programme-main {
-    margin-top: 95px;
+    margin-top: 40px;
   }
   #programme .all-programme .programme-main .programme-box {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 2em;
-    position: relative;
-    height: 328px;
-    width: 96%;
+    width: 50%;
+    height: 152.84px;
     margin: auto;
-    margin-top: 41px;
+    border-radius:1em;
+    margin-top: 25px;
   }
   #programme .all-programme .programme-main .programme-box .box-img {
-    width: 100%;
-    height: 160px;
+    height: 74px;
   }
-  #programme .all-programme .programme-main .programme-box .box-img img {
-    height: 100%;
-    width: 100%;
-  }
-  #programme .all-programme .programme-main .programme-box .box-text {
-    width: 94%;
-    margin: auto;
+  #programme .all-programme .programme-main .programme-box .box-text{
+    width: 86%;
   }
   #programme .all-programme .programme-main .programme-box .box-text h3 {
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 11px;
+    font-size: 14px;
   }
   #programme .all-programme .programme-main .programme-box .box-text p {
-    font-size: 25px;
-    font-weight: 400;
-    margin-top: 32px;
-    width: 70%;
+    font-size: 12px;
+    margin-top: 10px;
   }
-  
   #statistics {
-    padding-bottom: 110px;
-    background-color: #EFEFEF;
+    padding-bottom: 55px;
   }
   #statistics .all-statistics {
-    padding-top: 90px;
-  }
-  #statistics .all-statistics .statistics-head h2 {
-    font-size: 55px;
-    font-weight: 700;
-    font-family: robotSlab;
+    padding-top: 42px;
   }
   #statistics .all-statistics .statistics-box {
-    width: 790px;
-    height: 400px;
-    background-color: #fff;
-    border-radius: 3em;
-    padding: 15px 0px;
-    margin-top: 45px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-  #statistics .all-statistics .statistics-box .box-text {
-    width: 90%;
+    width: 308px;
+    height: 248px;
     margin: auto;
+    margin-top: 30px;
+    border-radius: 1em;
   }
   #statistics .all-statistics .statistics-box .box-text p {
-    font-size: 20px;
-  }
-  #statistics .all-statistics .statistics-box .box-acc {
-    width: 90%;
-    margin: auto;
+    font-size: 10px;
   }
   #statistics .all-statistics .statistics-box .box-acc .box-img {
-    width: 190px;
-    height: 169px;
+    width: 92px;
+    height: 84px;
   }
   #statistics .all-statistics .statistics-box .box-acc .box-person h4 {
-    font-size: 30px;
-    font-weight: 700;
-    font-family: robotSlab;
+    font-size: 14px;
   }
   #statistics .all-statistics .statistics-box .box-acc .box-person img {
-    width: 32px;
-    height: 31px;
-    margin-top: 15px;
+    width: 14.91px;
+    height: 17.2px;
   }
-  
   #start {
-    background-color: #9DC9C8;
-    padding-bottom: 100px;
+    padding-bottom: 65px;
   }
   #start .all-start {
-    padding-top: 120px;
-  }
-  #start .all-start .start-head h2 {
-    font-size: 55px;
-    font-weight: 700;
-    font-family: robotSlab;
+    padding-top: 62px;
   }
   #start .all-start .start-main {
-    margin-top: 55px;
+    margin-top: 25px;
   }
   #start .all-start .start-main .price-start span {
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 12px;
   }
   #start .all-start .start-main .price-start p {
-    font-size: 80px;
-    font-weight: 400;
+    font-size: 37px;
   }
   #start .all-start .start-main .start-bottom {
-    margin-top: 100px;
+    margin-top: 75px;
   }
   #start .all-start .start-main .start-bottom .start-box h4 {
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 12px;
   }
   #start .all-start .start-main .start-bottom .start-box p {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 10px;
   }
-  
   #footer {
-    background-color: #000;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 25px;
+  }
+  #footer .up-footer {
+    flex-wrap: wrap;
   }
   #footer .up-footer .left-footer .footer-img {
-    width: 115px;
-    height: 68px;
-  }
-  #footer .up-footer .left-footer .footer-img img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  #footer .up-footer .left-footer .footer-social {
-    margin-top: 30px;
+    width: 53.59px;
+    height: 31.69px;
   }
   #footer .up-footer .left-footer .footer-social img {
-    width: 33px;
-    height: 33px;
-    margin-right: 18px;
+    width: 15.38px;
+    height: 15.38px;
+    margin-right: 8px;
   }
-  #footer .up-footer .right-footer a {
-    display: flex;
-    margin-top: 5px;
-    color: #fff;
+  #footer .up-footer .right-footer {
+    margin-top: 50px;
+    width: 100%;
   }
+ 
   #footer .up-footer .right-footer a img {
-    width: 27px;
-    height: 27px;
-    margin-right: 25px;
+    width: 12.58px;
+    height: 12.58px;
+  }
+  #footer .up-footer .right-footer a p {
+    font-size: 12px;
   }
   #footer .up-footer .right-footer a .mail {
-    height: 18px;
+    height: 8.39px;
   }
   #footer .down-footer {
-    margin-top: 120px;
+    margin-top: 50px;
   }
   #footer .down-footer p {
-    margin: 0%;
-    padding: 0%;
-    color: #fff;
-    font-size: 18px;
+    font-size: 10px;
   }
-  
-  @media (min-width: 270px) and (max-width: 576px) {
-    #header .all-header img {
-      width: 52.19px;
-      height: 30.75px;
-    }
-    #nav {
-      padding-top: 45px;
-    }
-    #nav .all-nav ul li {
-      font-size: 10px;
-    }
-    #nav .all-nav ul li img {
-      width: 10.25px;
-      height: 9.79px;
-    }
-    #watch .all-watch .left-watch h1 {
-      font-size: 37px;
-    }
-    #watch .all-watch .left-watch p {
-      font-size: 10px;
-      width: 60%;
-    }
-    #watch .all-watch .right-watch {
-      width: 141.66px;
-      height: 165.89px;
-      margin-left: 50%;
-    }
-    #box-place {
-      padding-top: 45px;
-    }
-    #box-place .all-box-place {
-      width: 225.36px;
-      height: 95px;
-    }
-    #box-place .all-box-place h6 {
-      font-size: 11px;
-    }
-    #box-place .all-box-place span {
-      font-size: 10px;
-    }
-    #course {
-      padding-top: 75px;
-    }
-    #course .all-course .course-head h2 {
-      font-size: 26px;
-    }
-    #course .all-course .course-main .course-content p {
-      font-size: 12px;
-    }
-    #course .all-course .course-main .course-content p:first-child {
-      margin-bottom: 15px;
-    }
-    #course .all-course .course-main .course-img {
-      width: 146.32px;
-      height: 146.78px;
-      margin: auto;
-    }
-    #time .all-time .time-box h6 {
-      font-size: 12px;
-    }
-    #time .all-time .time-box p {
-      font-size: 10px;
-    }
-    #time .all-time .time-box img {
-      display: none;
-    }
-  }/*# sourceMappingURL=main.css.map */
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  #header .all-header img {
+    width: 64.87px;
+    height: 38.23px;
+  }
+  #nav {
+    padding-top: 57px;
+  }
+  #nav .all-nav ul li {
+    font-size: 12px;
+  }
+  #nav .all-nav ul li img {
+    width: 12.74px;
+    height: 12.16px;
+  }
+  #watch .all-watch .left-watch h1 {
+    font-size: 46px;
+  }
+  #watch .all-watch .left-watch p {
+    font-size: 12px;
+    width: 80%;
+  }
+  #watch .all-watch .right-watch {
+    width: 176.07px;
+    height: 206.18px;
+  }
+  #box-place {
+    padding-top: 55px;
+  }
+  #box-place .all-box-place {
+    width: 280.11px;
+    height: 130px;
+  }
+  #box-place .all-box-place h6 {
+    font-size: 14px;
+  }
+  #box-place .all-box-place span {
+    font-size: 12px;
+  }
+  #course {
+    padding-top: 100px;
+  }
+  #course .all-course .course-main .course-content p {
+    font-size: 14px;
+  }
+  #course .all-course .course-main .course-content p:first-child {
+    margin-bottom: 15px;
+  }
+  #course .all-course .course-main .course-img {
+    width: 181.86px;
+    height: 182.44px;
+    margin: auto;
+  }
+  #time .all-time .time-box h6 {
+    font-size: 12px;
+  }
+  #time .all-time .time-box p {
+    font-size: 10px;
+  }
+  #time .all-time .time-box img {
+    width: 95.37px;
+    height: 95.57px;
+    margin-right: 75px;
+  }
+  #format {
+    padding-top: 95px;
+  }
+  #format .all-format .format-main {
+    margin-top: 50px;
+  }
+  #format .all-format .format-main .format-box h6 {
+    font-size: 15px;
+  }
+  #format .all-format .format-main .format-box p {
+    font-size: 11px;
+  }
+  #know {
+    padding-top: 145px;
+  }
+  #know .all-know .know-main ul li {
+    width: 100%;
+    font-size: 14px;
+  }
+  #programme {
+    padding-top: 85px;
+    padding-bottom: 52px;
+  }
+  #programme .all-programme .programme-main {
+    margin-top: 55px;
+  }
+  #programme .all-programme .programme-main .programme-box {
+    width: 100%;
+    height: fit-content;
+    border-radius:1em;
+    margin-top: 25px;
+    padding-bottom: 15px;
+  }
+  #programme .all-programme .programme-main .programme-box .box-img {
+   height: 92.67px;
+  }
+  #programme .all-programme .programme-main .programme-box .box-text h3 {
+    font-size: 17px;
+  }
+  #programme .all-programme .programme-main .programme-box .box-text p {
+    font-size: 14px;
+    margin-top: 15px;
+    width: 100%;
+  }
+  #statistics {
+    padding-bottom: 65px;
+  }
+  #statistics .all-statistics {
+    padding-top: 52px;
+  }
+  #statistics .all-statistics .statistics-box {
+    width: 458.12px;
+    height: 261.2px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 1em;
+  }
+  #statistics .all-statistics .statistics-box .box-text p {
+    font-size: 12px;
+  }
+  #statistics .all-statistics .statistics-box .box-acc .box-img {
+    width: 110.04px;
+    height: 97.88px;
+  }
+  #statistics .all-statistics .statistics-box .box-acc .box-person h4 {
+    font-size: 17px;
+  }
+  #statistics .all-statistics .statistics-box .box-acc .box-person img {
+    width: 18.53px;
+    height: 17.95px;
+  }
+  #start {
+    padding-bottom: 107px;
+  }
+  #start .all-start {
+    padding-top: 103px;
+  }
+  #start .all-start .start-main {
+    margin-top: 35px;
+  }
+  #start .all-start .start-main .price-start span {
+    font-size: 14px;
+  }
+  #start .all-start .start-main .price-start p {
+    font-size: 46px;
+  }
+  #start .all-start .start-main .start-bottom {
+    margin-top: 90px;
+  }
+  #start .all-start .start-main .start-bottom .start-box h4 {
+    font-size: 14px;
+  }
+  #start .all-start .start-main .start-bottom .start-box p {
+    font-size: 10px;
+  }
+  #footer {
+    padding-top: 30px;
+  }
+  #footer .up-footer .left-footer .footer-img {
+    width: 66.6px;
+    height: 39.38px;
+  }
+  #footer .up-footer .left-footer .footer-social img {
+    width: 19.11px;
+    height: 19.11px;
+    margin-right: 11px;
+  }
+  #footer .up-footer .right-footer a img {
+    width: 15.64px;
+    height: 15.64px;
+  }
+  #footer .up-footer .right-footer a p {
+    font-size: 14px;
+  }
+  #footer .up-footer .right-footer a .mail {
+    height: 10.43px;
+  }
+  #footer .down-footer p {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=main.css.map */
